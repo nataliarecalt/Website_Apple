@@ -1,0 +1,513 @@
+/**** ESTILO INDEX ****/
+*{  padding: 0;
+    margin: 0;
+    background:#000;
+    color:#fff;
+}
+/*----------------------- BODY -----------------------*/
+body { display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+}
+/*----------------------- BARRA DE NAVEGACION -----------------------*/
+.barra_inicio{ display: flex;
+               width:100%;
+               flex-direction: row;
+               align-items:center;
+               justify-content: space-between; 
+               margin-top: 12px;
+}
+/* SECCION DE BUSQUEDA */
+.search_section {display:flex;
+                justify-content:center;
+                flex-direction: row;
+                align-items: center;
+}
+#search_icon{margin:23px;
+}
+/* TITULO DE PAGINA */
+#titulo_de_pagina { display:flex;
+                flex-direction: row;
+                width: 60%;
+                align-items:center;
+                justify-content: center; 
+                text-align: center;
+}
+#titulo_de_pagina h1 {color:rgba(218, 218, 218, 0.979);
+                      font:lighter 20px Georgia;
+}
+
+/* SECCION DE INGRESO/COMPRAS */
+.login_section {display: flex;
+                justify-content:center;
+                flex-direction: row;
+                align-items: center;
+}
+#listadelmenu > li {
+display: inline-block;
+font:normal 22px rgb(197, 196, 196);
+}	
+#listadelmenu li a {
+text-decoration:none;
+padding:12px 18px;
+display:block;
+}
+#listadelmenu li a:hover {
+background-color:#000;
+}			
+#listadelmenu li ul {
+display:none;
+position:absolute;
+}
+#listadelmenu li:hover > ul {
+display:block;
+}
+#listadelmenu li ul li {
+position:relative;
+list-style:none;
+}
+#ingreso a:hover {
+color:rgb(68, 216, 226);
+}
+#registrarse a:hover {
+color:rgb(68, 216, 226);
+}
+#listadelmenu li ul li ul {
+top:0px;
+}
+/*CARRITO */
+#carrito_de_compras {margin:20px;
+                     padding-right: 5px;
+}
+/*----------------------- SECCION DE PRESENTACION -----------------------*/
+.photoContainer { display: flex;
+                  flex-direction: column;
+                  width: 100%;
+}
+.photoContainer img{object-fit: cover;
+                     max-width:100%;
+}
+/*----------------------- BARRA DE PRODUCTOS -----------------------*/
+#productos{display: flex;
+           flex-direction: row;
+           width: 100%;
+           flex-wrap: wrap;
+           justify-content: space-evenly;
+           margin: 20px 0px;
+}
+#productos a {display: flex;
+                justify-content: center;
+                font:lighter 18px Georgia;
+                text-decoration: none;
+}
+#productos a:hover {color: rgb(96, 214, 198); 
+}
+
+/*----------------------- SECCION DE CONTENIDO O NOVEDADES -----------------------*/
+/* CONTENEDOR 1 */
+.container_1 { display: flex;
+                flex-direction: column;
+                width: 100%;
+                overflow: hidden;
+}
+.container_1 h1{padding:65px;
+                font:bold 60px Georgia;
+                color:rgb(199, 182, 248);
+                text-align: center;
+}
+.container_1 img {max-width:100%;
+}
+.container_1 h2{ padding:20px 50px;
+                text-align:center;
+                font:normal 30px Georgia;
+}
+.container_1 h5{padding:30px;
+                text-align:center;
+                font:lighter 20px Georgia;
+                color:silver;
+}
+#diseño_lila {display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-top: 6rem;
+                object-fit: cover;
+                max-width:100%;
+}
+
+/* CONTENEDOR 2 */
+.container_2 { display: flex;
+                flex-direction: column;
+                width: 100%;
+                padding-top: 7rem;
+                background:#fff;   
+}
+.container_2 h1{padding-top:10rem;
+                font:bold 60px Georgia;
+                color: rgb(241, 137, 19);
+                background:#fff;
+                text-align: center;
+}
+.container_2 h2{font:bold 52px Georgia;
+                color: rgb(255, 229, 79);
+                background:#fff;
+                text-align: center;
+}
+#new_imac{display: flex;
+        flex-direction:column;
+        width: 100%;
+        align-items: center;
+        padding-top: 1rem;
+        overflow: hidden;
+        background:#fff;
+}
+#new_imac_2 {display: flex;
+             flex-direction: column;
+             justify-content: center;
+             width: 100%;
+             height: auto;
+             align-items: center;
+}
+.container_2 video {width: 100%;
+                    padding-bottom: 35px;
+                    overflow: hidden;
+}
+.container_2 img {width: 100%;
+}
+.container_2 video{width: 100%;
+                overflow: hidden;
+}
+/* CONTENEDOR 3 */ 
+.container_3 {display: flex;
+                flex-direction: column;
+                align-items: center; 
+                width: 100%;
+                padding-top: 6rem; 
+}
+#mac_m1{display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 3rem;
+        overflow: hidden;
+        width: 100%;
+}  
+.container_3 h2 {padding:40px;
+                text-align:center;
+                font:lighter 45px Georgia
+}
+.container_3 p {padding:2rem 6rem;
+                text-align:center;
+                font:lighter 24px Georgia;
+}
+.container_3 a {display:block;
+                padding:60px;
+                text-align:center;
+                color:rgb(57, 125, 165);
+                font:bold 28px Georgia;
+                text-decoration: none;
+}
+.container_3 img {width: 100%;
+}
+/* FINAL DE PAGINA */
+#return_home { display:flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 30px;
+                padding-bottom: 50px;
+                width: 100%;
+
+}
+/*----------------------- FOOTER -----------------------*/
+
+.barra_informacion { display:flex;
+                     flex-direction: row;
+                     flex-wrap: wrap;
+                     width: 100%;
+                     background:#fff;
+                     padding-top: 60px;
+                     justify-content: space-evenly;
+                     overflow: hidden;
+}
+
+/* MAS INFORMACION */ 
+.cont_1 {background: #fff;
+}
+.cont_1 h3 {color:#000;
+            background:#fff;
+            padding-bottom: 12px;
+}
+.cont_1 ul li {color:#000;
+                background:#fff;
+                padding-bottom:5px;
+                list-style: none;
+} 
+.info_footer a{text-decoration: none;
+                background-color: #fff;
+                color: #000;
+                font:normal 16px Georgia;
+}
+.info_footer a:hover {font:bold 16px Georgia;
+}
+/* MEDIOS DE PAGO */ 
+.cont_2{background: #fff;
+}
+.cont_2 h3 {color:#000;
+        background:#fff;
+}
+/* TEXTO DE COPYRIGHT */
+footer{display:flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       background: #fff;
+       width: 100%;
+}
+footer h1 { font:lighter 18px Sans-serif;
+            color:rgb(44, 44, 44);
+            background: #fff;
+            padding:60px;
+            text-align: center;
+}
+/************************************************************/
+/************************************************************/
+/*----------------------- RESPONSIVE -----------------------*/
+/************************************************************/
+/************************************************************/
+
+/*-----------------------------------------------------*/
+/*----------- ANCHO MÍNIMO 320 - MÁXIMO 480PX ---------*/
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+        .barra_inicio{ display: flex;
+                width:100%;
+                flex-direction: row;
+                align-items:center;
+                justify-content: space-between; 
+                margin-top: 12px;
+        }     
+        #titulo_de_pagina h1 {color:rgba(218, 218, 218, 0.979);
+                        font:lighter 14px Georgia;
+        }
+        /* SECCION DE INGRESO/COMPRAS */
+        #listadelmenu > li {display: inline-block;
+                                font:lighter 10px Georgia;
+                                color: rgb(197, 196, 196);
+        }	
+        #listadelmenu li a {padding:8px 12px;
+        }
+
+        /* SECCION DE BUSQUEDA */
+        .search_section {display:flex;
+                        justify-content:center;
+                        flex-direction: row;
+                        align-items: center;
+                        font:lighter 10px Georgia;
+        }
+        .search {border:none;
+                width: 0%;
+        }
+        #search_icon{margin:10px;
+        }
+        /*CARRITO */
+        #carrito_de_compras {margin:5px;
+                                padding-right: 5px;
+                                font:lighter 10px Georgia;
+        }
+        /* BARRA DE PRODUCTOS */
+        #productos a { font:lighter 10px Georgia;
+        }
+
+        /* CONTENEDOR 1 */
+        .container_1 h1{padding:25px;
+                        font:bold 24px Georgia;
+                        color:rgb(199, 182, 248);
+                        text-align: center;
+        }
+        .container_1 h2{padding:10px 50px;
+                        text-align:center;
+                        font:normal 18px Georgia;
+        }
+        .container_1 h5{padding:30px;
+                        text-align:center;
+                        font:lighter 14px Georgia;
+                        color:silver;
+        }
+        #diseño_lila {padding-top: 3rem;
+        }
+
+        /* CONTENEDOR 2 */
+        .container_2 { padding-top: 2rem;
+        }
+        .container_2 h1{padding-top:3rem;
+                        font:bold 30px Georgia;
+        }
+        .container_2 h2{font:bold 22px Georgia;
+                        margin: 15px;
+        }
+        .container_2 video{ width: 100%;
+        }
+        /* CONTENEDOR 3 */ 
+        .container_3 {padding-top: 3rem; 
+        }
+        .container_3 h2 {padding:15px;
+                        font:lighter 14px Georgia;
+        }
+        .container_3 p {padding:2rem 2rem;
+                font:lighter 11px Georgia;
+        }
+        .container_3 a {padding:30px;
+                font:bold 14px Georgia;
+        }
+        #return_home{font:10px Georgia;
+                padding-bottom: 30px;
+        }
+
+        /*----------------------- FOOTER -----------------------*/
+        /* MAS INFORMACION */ 
+        .cont_1 h3 {text-align: center;
+        }
+        .cont_1 ul li {text-align: center;
+        } 
+        .info_footer a{font:normal 14px Georgia;
+        }
+        .info_footer a:hover {font:bold 16px Georgia;
+        }
+
+        /* MEDIOS DE PAGO */ 
+        .cont_2 h3 {text-align: center;
+                    padding-top: 20px;
+        }
+        .cont_2 {text-align: center;
+                width: 100%;
+                overflow: hidden;
+        }
+        .cont_2 img{margin: 20px;
+                width: 70%;
+        }
+        /* TEXTO DE COPYRIGHT */
+        footer h1 { font:lighter 11px Sans-serif;
+                        padding:20px;
+        }
+}
+        
+/*-----------------------------------------------------*/
+/*----------- ANCHO MÍNIMO 480 - MÁXIMO 780PX ---------*/
+
+@media screen and (min-width: 480px) and (max-width: 780px){
+        
+        .barra_inicio{ display: flex;
+                width:100%;
+                flex-direction: row;
+                align-items:center;
+                justify-content: space-between; 
+                margin-top: 12px;
+        }     
+        #titulo_de_pagina h1 {color:rgba(218, 218, 218, 0.979);
+                        font:lighter 16px Georgia;
+        }
+        /* SECCION DE INGRESO/COMPRAS */
+        #listadelmenu > li {display:block;
+                        font:lighter 12px Georgia;
+                        color: rgb(197, 196, 196);
+        }	
+        #listadelmenu li a {padding:4px 10px;
+        }
+
+        /* SECCION DE BUSQUEDA */
+        .search_section {display:flex;
+                        justify-content:center;
+                        flex-direction: row;
+                        align-items: center;
+                        font:lighter 13px Georgia;
+        }
+        .search {border:none;
+                width: 0%;
+        }
+        #search_icon{margin:14px;
+        }
+        /*CARRITO */
+        #carrito_de_compras {padding-right: 8px;
+                                font:lighter 13px Georgia;
+        }
+        /* BARRA DE PRODUCTOS */
+        #productos a { font:lighter 14px Georgia;
+        }
+
+        /* CONTENEDOR 1 */
+        .container_1 h1{padding:40px;
+                        font:bold 35px Georgia;
+                        color:rgb(199, 182, 248);
+                        text-align: center;
+        }
+        .container_1 h2{padding:15px 50px;
+                        text-align:center;
+                        font:normal 18px Georgia;
+        }
+        .container_1 h5{padding:30px;
+                        text-align:center;
+                        font:lighter 14px Georgia;
+                        color:silver;
+        }
+        #diseño_lila {padding-top: 3rem;
+        }
+
+        /* CONTENEDOR 2 */
+        .container_2 { padding-top: 2rem;
+                        background: #fff;
+        }
+        .container_2 h1{padding-top:3rem;
+                        font:bold 40px Georgia;
+        }
+        .container_2 h2{font:bold 32px Georgia;
+                        margin: 15px;
+        }
+        .container_2 video{ width: 100%;
+        }
+
+        /* CONTENEDOR 3 */ 
+        .container_3 {padding-top: 3rem; 
+        }
+        .container_3 h2 {padding:15px;
+                        font:lighter 22px Georgia;
+        }
+        .container_3 p {padding:3rem 4rem;
+                font:lighter 13px Georgia;
+        }
+        .container_3 a {padding:30px;
+                font:bold 15px Georgia;
+        }
+        #return_home{font:10px Georgia;
+                padding-bottom: 30px;
+        }
+
+        /*----------------------- FOOTER -----------------------*/
+        /* MAS INFORMACION */ 
+        .cont_1 h3 {text-align: center;
+        }
+        .cont_1 ul li {text-align: center;
+        } 
+        .info_footer a{font:normal 14px Georgia;
+        }
+        .info_footer a:hover {font:bold 16px Georgia;
+        }
+
+        /* MEDIOS DE PAGO */ 
+        .cont_2 h3 {text-align: center;
+                    padding-top: 20px;
+        }
+        .cont_2 {text-align: center;
+                width: 100%;
+                overflow: hidden;
+        }
+        .cont_2 img{margin: 20px;
+                width: 70%;
+        }
+        /* TEXTO DE COPYRIGHT */
+        footer h1 { font:lighter 14px Sans-serif;
+                        padding:20px;
+        }
+}
+
+ 

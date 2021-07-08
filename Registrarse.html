@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <meta lang="es"/>
+    <meta charset="utf-8" />
+    <title>REGISTRARSE - AppleStore | Tienda Oficial</title>
+    <link rel="stylesheet" href="estilo_registrarse.css"/>
+    <script src="javascript.login.js"></script>
+    <script src="https://kit.fontawesome.com/e547f827f8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- PRESENTACION DE FORMULARIO -->
+    <header>
+        <div class="icon">
+            <i class="fab fa-apple fa-5x" style="color: #fff;"></i> <!-- icono apple font awesone -->
+        </div>
+        <h1>Bienvenido a nuestra tienda<br>Apple Store</h1>
+        <p>Te invitamos a suscribirte para poder acceder a todos nuestros productos disponibles.</p>
+    </header>
+    <!-- FORMULARIO -->
+    <form class="formulario" name='informacion' method="POST" action="https://formspree.io/f/mpzkqzje" >
+        <input name="val" class="name" type="text" placeholder="Nombre" pattern="[a-zA-ZÀ-ÿ\s]{3,40}" required />
+        <input name="val" class="surname" type="text" placeholder="Apellido" pattern="[a-zA-ZÀ-ÿ\s]{3,40}" required/>
+        <input name="val" class="email" type="text" placeholder="Correo Electrónico" required/>
+        <input name="val" class="password" type="password" placeholder="Contraseña" pattern="[a-zA-Z0-9]{1,8}" required/>
+        <input name="val" class="password_2" type="password" placeholder="Repetir Contraseña" pattern="[a-zA-Z0-9-]{1,8}" required />
+    </form>
+    <!-- BOTON DE ENVIO DE FORMULARIO -->
+    <section id="seccionDeRegistro">
+        <button type="button" id="btn">REGISTRARME</button>
+    </section>
+    <!-- USUARIOS YA REGISTRADOS -->
+    <h3>¿Ya estás Registrado?</h3>
+    <a href="Ingreso.html">Ingresá haciendo click aquí</a>
+</body>
+<footer>
+    <!-- TEXTO DE COPYRIGHT -->
+    <h1>Todos los derechos reservados <br>AppleStore | Tienda Oficial</h1> 
+</footer>

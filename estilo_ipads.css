@@ -1,0 +1,223 @@
+* {padding:0;
+    margin:0;
+}
+/*--------------- HEADER ---------------*/ 
+header {display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden; 
+        background:#000;     
+}
+header h1{color:rgb(226, 102, 0);
+        font:bold 225% Georgia;
+        text-align:center;
+        margin:45px;
+        padding:50px;
+}
+
+/*--------------- ESTILO GENERAL ---------------*/ 
+p {text-align:center;
+    color:rgb(179, 179, 179);
+    font:lighter 30px Sans-serif;
+    margin:50px;
+    padding-left:70px;
+    padding-right:70px;
+    padding-top:10px;
+} 
+
+/*--------------- INFORMACION ---------------*/ 
+/* IPAD PRO */ 
+.ipad_Pro p {text-align:center;
+            color:rgb(179, 179, 179);
+            background:#000;
+            font:lighter 30px Sans-serif;
+            margin:50px;
+            padding-left:70px;
+            padding-right:70px;
+            padding-top:10px;
+} 
+.ipad_Pro{display: flex;
+          flex-direction:column;
+          width: 100%;
+          justify-content: center;
+          overflow: hidden;   
+          align-items: center;
+          background:#000;
+}
+.ipad_Pro h3 {color:rgb(214, 58, 71);
+            font:bold 39px Georgia;
+            background:#000;
+            text-align:center;
+            margin:45px;
+            padding:30px;
+}
+.ipad_Pro img {width:70%
+}
+.dual_image { display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              justify-content: center;
+              width: 100%;
+              margin-bottom: 60px;
+}
+.dual_image div{display: flex;
+                width: 45%;
+                justify-content: space-evenly;
+
+}
+.dual_image p {text-align:center;
+                color:rgb(179, 179, 179);
+                font:lighter 22px Sans-serif;
+                padding:0;
+} 
+#datos_pro {display: flex;
+            width: 100%;
+            overflow: hidden;
+            justify-content: center;
+            padding-bottom: 60px;
+}
+#datos_pro img {width: 90%;
+}
+/* IPAD AIR */ 
+.ipad_Air{display: flex;
+        flex-direction:column;
+        width: 100%;
+        justify-content: center;
+        overflow: hidden;   
+        align-items: center;
+        background:#fff;
+}
+.ipad_Air h2, img, h3, p {background: #fff;
+}
+.ipad_Air h2{color:rgb(137, 175, 219);
+                font:bold 45px Georgia;
+                text-align:center;
+                margin:38px;
+                padding:30px;
+}
+.ipad_Air h3{color:rgb(137, 175, 219);
+                font:bold 45px Georgia;
+                text-align:center;
+                margin:38px;
+                padding:30px;
+}
+.ipad_Air p { color:rgb(119, 119, 119);
+}
+.ipad_Air img {width: 100%; 
+}
+/* IPAD */ 
+.ipad{display: flex;
+        flex-direction:column;
+        width: 100%;
+        justify-content: center;
+        overflow: hidden;   
+        align-items: center;
+        background: #fff;
+}
+.ipad h2{font:bold 45px Georgia;
+}
+.ipad h4 {font:lighter 32px Georgia;
+}
+.ipad h2,h4 {color:rgb(228, 159, 180);
+                text-align:center;
+                margin:30px;
+                padding:20px;
+                background: #fff;
+}
+.ipad p {color:rgb(102, 102, 102);
+}
+#ipad {width: 80%;
+}
+#mini_pencil{width: 100%;
+}
+#mini_pencil img{width: 100%;
+}
+
+/*--------------- SECCION COMPRAS ---------------*/ 
+.compras {background: #fff;
+        text-align:center;
+}
+.compras h2 {color:rgb(226, 100, 142);
+            font:bold 38px Georgia;
+            margin:38px;
+            padding:10px;
+            background: #fff;
+}
+
+.buyContainer {display: flex;
+                background: #fff;
+                flex-direction:row;
+                flex-wrap: wrap;
+                width: 100%;
+                justify-content: space-evenly;
+                overflow: hidden;   
+                align-items: center;
+                padding-top: 100px;
+                padding-bottom: 150px;
+}
+.buyContainer div {display: flex;
+                    flex-direction:column;
+                    width: 15%;
+                    height: auto;
+                    justify-content: center;
+                    overflow: hidden;   
+                    background: #fff;
+}
+.buyContainer img {width: 100%;
+                   overflow: hidden;
+}
+.buyContainer h4{color:rgb(100, 105, 105);
+                font:normal 16px Georgia;
+                padding: 0%;
+}
+.buyContainer a {text-decoration: none;
+                color:rgb(49, 116, 107);
+                font:bold 14px Georgia;
+                background:#fff;
+                text-align:center;
+}
+.buyContainer a:hover {color: rgb(44, 71, 68);
+                        font:bold 16px Georgia;
+}
+
+/*----------------------- RETORNO A LA PAGINA INICIAL -----------------------*/
+footer {background: #fff;
+}
+#return_home { display:flex;
+                flex-direction: column;
+                align-items: center;
+                background:#fff;
+                padding-bottom: 50px;
+}
+footer h3 { font:lighter 80% Sans-serif;
+            color:#333;
+            text-align: center;
+            background:#fff;
+            padding-bottom: 50px;
+} 
+
+
+
+/************************************************************/
+/************************************************************/
+/*----------------------- RESPONSIVE -----------------------*/
+/************************************************************/
+/************************************************************/
+
+/*-----------------------------------------------------*/
+/*----------- ANCHO MÍNIMO 320 - MÁXIMO 480PX ---------*/
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+        .compras h2 {font:bold 28px Georgia;
+        }
+        .buyContainer {display: flex;
+                background: #fff;
+                flex-direction:column;
+                width: 80%;
+                justify-content: space-evenly;
+                overflow: hidden;   
+                align-items: center;
+                padding-top: 100px;
+                padding-bottom: 150px;
+        }
+}

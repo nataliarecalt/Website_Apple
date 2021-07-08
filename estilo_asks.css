@@ -1,0 +1,96 @@
+/*----------------------- ESTILO GENERAL -----------------------*/
+.head_asks { display:flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-top: 7rem;
+        padding-bottom: 2rem;
+        overflow: hidden;
+}
+header h1 {color:#000;
+            text-align:center;
+            font:lighter 28px Georgia;
+            margin:10px;
+}
+header p {color:#000;
+        text-align:center;
+        margin:30px;
+        font:lighter 18px Georgia;
+} 
+header h4{font:bold 19px Georgia;
+        text-align: center;
+        text-decoration: none;
+}
+.dudas{display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 50px 150px;
+
+}
+
+/*----------------------- RETORNO A LA PAGINA INICIAL -----------------------*/
+#return_home { display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+footer h3 { font:lighter 18px Sans-serif;
+            color:#333;
+            text-align: center;
+            margin:30px;
+} 
+
+
+/************************************************************/
+/************************************************************/
+/*----------------------- RESPONSIVE -----------------------*/
+/************************************************************/
+/************************************************************/
+
+/*-----------------------------------------------------*/
+/*----------- ANCHO MÍNIMO 320 - MÁXIMO 480PX ---------*/
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+        .icon {font-size: 14px;
+        }
+        header h1 {font:lighter 20px Georgia;
+        }
+        header p {font:lighter 14px Georgia;
+                margin:25px 45px;
+        } 
+        header h4{font:bold 12px Georgia;
+        }
+        .dudas{display: flex;
+                flex-direction: column;
+                width: 100%;
+                padding: 50px 50px;
+        
+        }
+        /* RETORNO A LA PAGINA INICIAL */
+        #return_home { font-size: 14px;
+        }
+        footer h3 { font:lighter 13px Sans-serif;
+        } 
+}
+/*-----------------------------------------------------*/
+/*----------- ANCHO MÍNIMO 480 - MÁXIMO 780PX ---------*/
+
+@media screen and (min-width: 480px) and (max-width: 780px){
+
+        .icon {font-size: 14px;
+        }
+        header h1 {font:lighter 20px Georgia;
+        }
+        header p {font:lighter 14px Georgia;
+                margin:25px 40px;
+        } 
+        header h4{font:bold 13px Georgia;
+        }
+        /* RETORNO A LA PAGINA INICIAL */
+        #return_home { font-size: 14px;
+        }
+        footer h3 { font:lighter 15px Sans-serif;
+        } 
+}

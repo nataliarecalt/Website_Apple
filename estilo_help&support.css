@@ -1,0 +1,115 @@
+/*----------------------- ESTILO -----------------------*/
+
+section {margin: 60px;
+}
+h2{margin:60px;
+    text-align: center;
+}
+.tags {display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+        overflow: hidden;
+}
+.contenedores_tags {display: flex;
+                    flex-direction: column;
+                    width: 40%;
+                    border-radius: 10px;
+                    background: rgba(148, 148, 148, 0.2);
+                    overflow: hidden;
+}
+.contenedores_tags p{ margin:70px;
+                    text-align: center;
+}
+
+
+/*----------------------- RETORNO A LA PAGINA INICIAL -----------------------*/
+#return_home { display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+footer h3 { font:lighter 18px Sans-serif;
+            color:#333;
+            text-align: center;
+            margin: 20px;
+} 
+
+
+/************************************************************/
+/************************************************************/
+/*----------------------- RESPONSIVE -----------------------*/
+/************************************************************/
+/************************************************************/
+
+/*-----------------------------------------------------*/
+/*----------- ANCHO MÍNIMO 320 - MÁXIMO 480PX ---------*/
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+    h2{font-size: 18px;
+        margin:30px;
+    }
+    section {margin: 15px;
+    }
+    .contenedores_tags {width: 70%;
+                        margin:25px;
+    }
+    .contenedores_tags p{ margin:20px;
+    }
+
+    /* RETORNO A LA PAGINA INICIAL  */
+    #return_home { font-size: 12px;
+    }
+    footer h3 { font:lighter 13px Sans-serif;
+    } 
+
+}
+
+/*-----------------------------------------------------*/
+/*----------- ANCHO MÍNIMO 480 - MÁXIMO 780PX ---------*/
+
+@media screen and (min-width: 480px) and (max-width: 780px){
+
+    h2{font-size: 22px;
+        margin:30px;
+    }
+    section {margin: 15px;
+    }
+    .contenedores_tags {width: 70%;
+                        margin:25px;
+    }
+    .contenedores_tags p{ margin:20px;
+    }
+
+    /* RETORNO A LA PAGINA INICIAL  */
+    #return_home { font-size: 13px;
+    }
+    footer h3 { font:lighter 14px Sans-serif;
+    } 
+
+}
+/*-----------------------------------------------------*/
+/*----------- ANCHO MÍNIMO 780 - MÁXIMO 1080PX ---------*/
+
+@media screen and (min-width: 780px) and (max-width: 1080px){
+
+    h2{font-size: 24px;
+        margin:30px;
+    }
+    section {margin: 30px;
+    }
+    .contenedores_tags {width: 40%;
+                        margin:25px;
+    }
+    .contenedores_tags p{ margin:25px;
+    }
+
+    /* RETORNO A LA PAGINA INICIAL  */
+    #return_home { font-size: 13px;
+    }
+    footer h3 { font:lighter 14px Sans-serif;
+    } 
+
+}

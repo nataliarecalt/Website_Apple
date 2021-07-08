@@ -1,0 +1,92 @@
+* {padding:0;
+    margin:0;
+    background:#000;
+}
+/*--------------- TEXTO DE INICIO ---------------*/ 
+.icon { display:flex;
+        justify-content:center;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 7rem;
+        padding-bottom: 2rem;
+}
+header h1 {color:#fff;
+    text-align:center;
+    font:lighter 28px Georgia;
+}
+p {color:#eee;
+    text-align:center;
+    margin:30px;
+    font:lighter 18px Georgia;
+} 
+/*--------------- FORMULARIO DE INGRESO ---------------*/ 
+.formulario label { Color:#fff;
+        margin-left:340px;
+        padding: 20px;
+}
+input {display:block;
+        width: 650px;
+        height: auto;
+        align-content: center;
+        padding: 20px;
+}
+.form {padding-top:30px;
+        padding-bottom:70px;
+}
+.formulario input {display:block;
+            top:0%;
+            bottom:0%;
+            right:0%;
+            left:0%;
+            margin:auto;
+            padding:14px;
+            color:#fff;
+}
+input:focus {background:linear-gradient(to top, transparent, #222);
+}
+/*--------------- BOTON DE INGRESO ---------------*/ 
+#seccionDeRegistro {margin: 35px;
+}
+button {display:block;
+        top:0%;
+        bottom:0%;
+        right:0%;
+        left:0%;
+        margin:auto;
+        width: 130px;
+        height: 55px;
+        color:#fff;
+        border-radius: 10%;
+}       
+button:hover {background:rgb(125, 182, 174);
+                color: #000;
+} 
+a:hover {color:rgb(179, 218, 212);
+} 
+
+/*--------------- LINK A USUARIOS NO REGISTRADOS ---------------*/ 
+h3 {color:#fff;
+    font:bold 20px Georgia;
+    text-align:center;
+    margin:20px;
+    padding-top:40px;
+}
+a {text-decoration: none;
+   color:rgb(96, 214, 198);
+   font:lighter 18px Georgia;
+   display:block;
+   text-align: center;
+   padding:10px;
+}
+
+/*--------------- FOOTER ---------------*/ 
+footer {display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding:4rem;
+
+}
+footer h1 { font:lighter 12px Sans-serif;
+        color:#333;
+        text-align: center;
+}

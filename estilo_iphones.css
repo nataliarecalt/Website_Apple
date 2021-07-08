@@ -1,0 +1,202 @@
+/*----------------------- PROPIEDADES GENERALES -----------------------*/
+*{  padding: 0;
+    margin: 0;
+    background:#000;
+    color:#fff;
+}
+h2 {color: rgb(82, 129, 161);
+    text-align:center;
+    margin:30px;
+    padding:20px;
+    font:bold 35px Georgia;
+}
+p {text-align:center;
+   color:#aaa;
+   font:lighter 30px Sans-serif;
+   padding:90px;      
+} 
+h3 {color: rgb(82, 129, 161);
+    text-align:center;
+    margin:30px;
+    padding:20px;
+    font:bold 35px Georgia;
+}
+h4 {color:#aaa;
+    text-align:center;
+    margin:30px;
+    padding:40px;
+    font:bold 30px Sans-serif;
+}
+h5 {color:rgb(104, 159, 196);
+    text-align:center;
+    margin:30px;
+    padding:40px;
+    font:bold 34px Georgia;
+}
+
+/*----------------------- PRESENTACION -----------------------*/
+header {display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+}
+#banner_12 {display: flex;
+            justify-content: flex-end;
+            width: 100%;
+}
+#banner_12 img{width: 100%;
+}
+header h1{text-align: center;
+        font:bold 50px Georgia;
+        color:rgb(82, 129, 161);
+        margin-top: 70px;
+}
+/*----------------------- INFORMACION MULTIMEDIA -----------------------*/
+.container_1 {display: flex;
+              flex-direction: column;
+              width: 100%;
+}
+#iphone_doce, #iphone_pro {display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            width: 100%;
+                            overflow: hidden;
+}
+#iphone_doce_photo, #iphone_12pro_photo {max-width: 55%;
+}
+#iphone_doce_video, #iphone_12pro_video {width: 100%;
+}
+/*----------------------- SECCION COMPRAS -----------------------*/
+.container_iphones{ display: flex;
+                    flex-direction:row;
+                    flex-flow: wrap;
+                    width: 100%;
+                    justify-content: space-evenly;
+                    overflow: hidden;
+}
+.product_container{ display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    width: 19%;
+                    overflow: hidden;
+}
+.product_container img{ max-width: 100%;
+                        height: auto;
+}
+.product_container h4{font: normal 18px Georgia;
+                        margin:8px;
+                        text-align:center;
+}
+.product_container a {text-decoration: none;
+                        color:rgb(82, 129, 161);
+                        font:bold 20px Georgia;
+                        margin:auto;
+                        text-align:center;
+}
+.product_container a:hover { color: rgb(172, 224, 217);
+                            font:bold 23px Georgia;
+}
+/*----------------------- RETORNO A LA PAGINA INICIAL -----------------------*/
+#return_home { display:flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 70px;
+}
+footer h3 { font:lighter 18px Sans-serif;
+            color:#333;
+            text-align: center;
+} 
+/************************************************************/
+/************************************************************/
+/*----------------------- RESPONSIVE -----------------------*/
+/************************************************************/
+/************************************************************/
+
+/*-----------------------------------------------------*/
+/*----------- ANCHO MÍNIMO 320 - MÁXIMO 480PX ---------*/
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    
+        /*PRESENTACION */
+        header h1{font:bold 30px Georgia;
+        }
+        h2 {font:bold 25px Georgia;
+        }
+        p {font:lighter 18px Sans-serif;
+            padding: 65px;     
+        } 
+        h3 {font:bold 22px Georgia;
+        } 
+        h4 {font:bold 16px Sans-serif;
+            padding: 6px;
+        }
+        h5 {font:bold 20px Georgia;
+        }
+        .product_container a {font:bold 14px Georgia;
+        }
+        .product_container a:hover {font:bold 16px Georgia;
+        }
+        .product_container h4{font: normal 12px Georgia;
+        }
+        .product_container{ width: 35%;
+            margin:25px;
+        }
+        /* RETORNO A LA PAGINA INICIAL */
+        #return_home { font-size: 12px;
+        }
+        footer h3 { font:lighter 12px Sans-serif;
+        }
+}
+
+/*-----------------------------------------------------*/
+/*----------- ANCHO MÍNIMO 480 - MÁXIMO 780PX ---------*/
+
+@media screen and (min-width: 480px) and (max-width: 780px){
+    
+        /*PRESENTACION */
+        header h1{font:bold 32px Georgia;
+        }
+        h2 {font:bold 25px Georgia;
+        }
+        p {font:lighter 20px Sans-serif;
+            padding: 70px;     
+        } 
+        h3 {font:bold 25px Georgia;
+        } 
+        h4 {font:bold 18px Sans-serif;
+            padding: 6px;
+        }
+        h5 {font:bold 22px Georgia;
+        }
+        .product_container a {font:bold 16px Georgia;
+        }
+        .product_container a:hover {font:bold 18px Georgia;
+        }
+        .product_container h4{font: normal 14px Georgia;
+        }
+        .product_container{ width: 39%;
+            margin:20px;
+        }
+        /* RETORNO A LA PAGINA INICIAL */
+        #return_home { font-size: 13px;
+        }
+        footer h3 { font:lighter 14px Sans-serif;
+        }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1080px){
+    
+    /*PRESENTACION */
+    
+    .product_container h4{font: normal 14px Georgia;
+    }
+    .product_container{ width: 19%;
+        margin:5px;
+    }
+    /* RETORNO A LA PAGINA INICIAL */
+    #return_home { font-size: 13px;
+    }
+    footer h3 { font:lighter 15px Sans-serif;
+    }
+}

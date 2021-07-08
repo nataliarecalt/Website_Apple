@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <meta lang="es"/>
+    <meta charset="utf-8" />
+    <title>INGRESAR - AppleStore | Tienda Oficial</title>
+    <link rel="stylesheet" href="estilo_ingreso.css"/> 
+    <script src="https://kit.fontawesome.com/e547f827f8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- PRESENTACION DE FORMULARIO -->
+    <header>
+        <div class="icon">
+            <i class="fab fa-apple fa-5x" style="color: #fff;"></i> <!-- icono apple font awesone -->
+        </div>
+        <h1>Bienvenido a nuestra tienda<br>Apple Store</h1>
+        <p>Ingresa tus datos para acceder a todos nuestros productos.</p>
+    </header>
+    <!-- FORMULARIO -->
+        <form class="formulario" name='informacion' method="POST" action="https://formspree.io/f/xjvjgvay" >
+            <input name="val" class="email" type="text" placeholder="Correo Electrónico" required/>
+            <input name="val" class="password" type="password" placeholder="Contraseña" pattern="[a-zA-Z0-9]{1,8}" required/>
+        </form>
+    <!-- BOTON DE INGRESO -->
+    <section id="seccionDeRegistro">
+        <button type="button" id="btn">INGRESAR</button>
+    </section>
+    <!-- USUARIOS NO REGISTRADOS -->
+    <h3>¿No estás Registrado?</h3>             
+    <a href="Registrarse.html">Registrate haciendo click aquí</a>
+</body>
+<footer>
+    <!-- TEXTO DE COPYRIGHT -->
+    <h1>Todos los derechos reservados <br>AppleStore | Tienda Oficial</h1> 
+</footer>

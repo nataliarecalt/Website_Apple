@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta lang="es"/>
+        <link rel="stylesheet" href="estilo.css" />
+        <meta name="content" content="applestore" />
+        <title> AppleStore | Tienda Oficial </title>
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <script src="JAVASCRIPT.js"></script>
+        <script src="https://kit.fontawesome.com/e547f827f8.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+    <!-- BARRA SUPERIOR -->
+    <nav class="barra_inicio">
+            <!-- SECCION DE BUSQUEDA -->
+            <div class="search_section"> 
+                <div id="search_icon">
+                    <i class="fas fa-search fa-lg" style="color: #fff;"></i> <!-- icono busqueda font awesone -->
+                </div> 
+                <!-- 
+                <div id="barra_busqueda">
+                    <form> 
+                        <input class="search" type="text" placeholder="Buscar"/>  
+                    </form>
+                </div>
+                -->
+            
+            </div>
+            <!-- TITULO DE PAGINA -->
+            <div id="titulo_de_pagina"> <!-- titulo de pagina -->
+                <h1>Apple Store - Tienda Oficial</h1>
+            </div>
+
+            <!-- SECCION COMPRAS/INGRESO -->
+            <div class="login_section"> 
+                <div>
+                    <ul id="listadelmenu"> <!-- menu desplegable de ingreso/registro-->
+                        <li><a href="#"><i class="far fa-user fa-lg" style="color: #fff;"></i> </a> <!-- icono usuario font awesone -->
+                        <ul>
+                            <li id="ingreso"><a href="Ingreso.html">Ingresar</a></li>
+                            <li id="registrarse"><a href="Registrarse.html">Registrarse</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- carrito-->
+                <div id="carrito_de_compras">
+                    <a href="#"> 
+                    <i class="fas fa-shopping-cart fa-lg"></i> <!-- carrito de compras-->
+                    </a>
+                </div>
+            </div>
+    </nav>    
+
+    <!-- SECCION DE PRESENTACION -->
+    <div id="inicio">
+        <div class="photoContainer">
+            <img src="images/apple store.jpg"/> <!-- imagen principal de pagina -->
+        </div>
+    </div>
+    <!-- BARRA DE PRODUCTOS -->
+    <nav id="productos">
+        <a href="Iphones.html">iPhones</a>
+        <a href="ipads.html">iPads</a>
+        <a href="AppleWatch.html">Watches</a>
+        <a href="pagina_en_construccion.html">Macbooks</a>
+        <a href="Imacs.html">iMacs</a>
+        <a href="pagina_en_construccion.html">Airpods</a>
+    </nav>
+    <!-- SECCION DE CONTENIDO O NOVEDADES -->
+        <!--contenedor 1-->
+        <div class="container_1">
+            <img src="images/purple_iphone12.jpg">
+            <h1>Nuevo color.<br>Nuevas sensaciones.</h1>
+            <h2>Morado.Soñado.<br>La frescura de lo nuevo, con la magia de siempre.</h2>
+            <div id="diseño_lila" >
+                <img src="images/iphone_12_purpura.png"> 
+            </div>
+            <h5>Disponible próximamente.</h5> 
+        </div>
+        <!--contenedor 2-->
+        <div class="container_2">
+            <h1>Decile Hola!</h1>
+            <h2>A la nueva generación.</h2>
+            <img src="images/imac_2021.jpg">
+            <img src="images/back_imac.jpg">
+            <video src="images/new_imac.mp4" controls autoplay> -->
+        </div>
+        <!--contenedor 3-->
+        <div class="container_3">
+            <div id="mac_m1">
+                <img src="images/macbook_m1.jpg"/>
+            </div>
+            <h2>Un chip pequeño. Un avance enorme.</h2>
+            <p>Presentamos el chip M1, el primero creado específicamente para la Mac. Brinda un rendimiento increíble, tecnologías diseñadas a la medida y una eficiencia energética extraordinaria. Fue pensado desde el comienzo para trabajar en conjunto con macOS Big Sur, el sistema operativo para computadoras de escritorio más avanzado del mundo. Y además lleva a la Mac al siguiente nivel con un rendimiento por watt sin precedentes. En resumen, es mucho más que una actualización: es una verdadera revolución.</p>
+            <!--imagen con link-->
+            <img src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2020/11/apple-m1-nuevo-procesador-propio-mac-apple-quiere-revolucionar-informatica-2130887.png"/>
+            <a href="pagina_en_construccion.html">Conocé más...</a>
+        </div>
+
+    <!-- FINAL DE PAGINA -->    
+    <div id="return_home">
+        <a href="#inicio">
+           <i class="fab fa-apple fa-3x"></i> <!-- icono font awesone --> 
+        </a>
+    </div>
+    </body>
+
+    <footer> 
+    <!-- BARRA DE INFORMACION -->  
+    <div class="barra_informacion">
+        <!-- contacto -->
+        <div class="cont_1">
+            <h3>Más Información.</h3>
+            <ul class="info_footer">
+                <li><a href="pagina_en_construccion.html"> Contacto </a> </li>
+                <li><a href="preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+                <li><a href="help&support.html"> Ayuda y Soporte Técnico </a> </li>
+                <li><a href="tiendas.html">Encontrá tu tienda Apple más cercana </a> </li>                
+            </ul>
+        </div>
+        <!-- medios de pago -->
+        <div class="cont_2">
+            <h3>Medios de pago.</h3>
+            <img src="https://digiset.com.ar/images/modal_mediosdepago.gif"/>
+        </div>   
+    </div>
+    <h1>Todos los derechos reservados <br>AppleStore | Tienda Oficial</h1> 
+    </footer>
+</html>

@@ -1,0 +1,115 @@
+* {padding:0;
+    margin:0;
+    background:#000;
+}
+/*--------------- ESTILO GENERAL ---------------*/ 
+h3,h4 {font:lighter 22px Sans-serif;
+    color:rgb(95, 95, 95);
+    text-align: center;
+    padding:20px;
+}
+.construction {display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 250px;
+                margin-bottom: 50px;
+}
+/*----------------------- RETORNO A LA PAGINA INICIAL -----------------------*/
+#return_home { display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+
+}
+footer h3 { font:lighter 18px Sans-serif;
+    color:#333;
+    text-align: center;
+    padding: 40px;
+} 
+
+
+/************************************************************/
+/************************************************************/
+/*----------------------- RESPONSIVE -----------------------*/
+/************************************************************/
+/************************************************************/
+
+/*-----------------------------------------------------*/
+/*----------- ANCHO MÍNIMO 320 - MÁXIMO 480PX ---------*/
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+    h3,h4 {font:lighter 16px Sans-serif;
+        padding:95px;
+    }
+    /* RETORNO A LA PAGINA INICIAL*/
+    #return_home { font:normal 12px Georgia;
+    }
+    footer h3 { font:lighter 14px Sans-serif;
+                padding-top: 20px;
+    } 
+}
+      
+/*-----------------------------------------------------*/
+/*----------- ANCHO MÍNIMO 480 - MÁXIMO 780PX ---------*/
+@media screen and (min-width: 480px) and (max-width: 780px){
+    
+    h3,h4 {font:lighter 16px Sans-serif;
+        padding:45px;
+    }
+    /* RETORNO A LA PAGINA INICIAL*/
+    #return_home { font:normal 12px Georgia;
+                    margin-top: 20px;
+    }
+    footer h3 { font:lighter 14px Sans-serif;
+                padding-top: 20px;
+    } 
+}
+/*-----------------------------------------------------*/
+/*----------- ANCHO MÍNIMO 780 - MÁXIMO 1080PX ---------*/
+@media screen and (min-width: 780px) and (max-width: 1080px){
+    
+    h3,h4 {font:lighter 16px Sans-serif;
+        padding:45px;
+    }
+    /* RETORNO A LA PAGINA INICIAL*/
+    #return_home { font:normal 12px Georgia;
+                    margin-top: 20px;
+    }
+    footer h3 { font:lighter 14px Sans-serif;
+                padding-top: 20px;
+    } 
+}
+/*-----------------------------------------------------*/
+/*----------- ANCHO MÍNIMO 1080 - MÁXIMO 1600PX ---------*/
+@media screen and (min-width: 1080px) and (max-width: 1600px){
+    
+    h3,h4 {font:lighter 28px Sans-serif;
+        padding:75px;
+    }
+    /* RETORNO A LA PAGINA INICIAL*/
+    #return_home { font:normal 16px Georgia;
+                    margin-top: 60px;
+    }
+    footer h3 { font:lighter 18px Sans-serif;
+                padding-top: 40px;
+    } 
+}
+
+
+/*-----------------------------------------------------*/
+/*----------- ANCHO MÍNIMO 1600 - MÁXIMO 1920PX ---------*/
+@media screen and (min-width: 1600px) and (max-width: 1920px){
+    
+    h3,h4 {font:lighter 18px Sans-serif;
+        padding:45px;
+    }
+    /* RETORNO A LA PAGINA INICIAL*/
+    #return_home { font:normal 14px Georgia;
+                    margin-top: 20px;
+    }
+    footer h3 { font:lighter 16px Sans-serif;
+                padding-top: 20px;
+    } 
+}
